@@ -1,0 +1,299 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar
+{
+    height: 60px;
+    display: flex;
+    background-color: white;
+    border-bottom:  solid black ;
+}
+.navlogo
+{
+    height:3rem;
+    width: 3rem;
+    background-color: aqua;
+    border: solid black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-left: 20px;
+    margin-top: 2px;
+}
+
+.textt{
+    margin-top: 10px;
+    background-color: white;
+    margin-left: 5px;
+}
+#text{
+    font-size: large;
+    font-weight: bold;
+    margin-left: 10px;
+}
+#text1
+{
+    font-size: 10px;
+    margin-left: 10px;
+}
+
+.xyz
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+}
+.xyz a
+{
+    margin: 10px;
+    text-decoration: none;
+    font-size: large;
+    padding: 10px;
+    color: black;
+    justify-content: center;
+}
+.xyz a:hover{
+    background-color: pink;
+
+}
+
+
+
+.image
+{
+    height: 500px;
+    background-size: cover;
+    background-image: url(youth.webp);
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.content
+{
+    margin: 50px;
+    padding: 50px;
+}
+#tag
+{
+    font-size: 50px;  
+}
+#text3
+{
+    background-color: aqua;
+}
+
+
+
+.Portfolio
+{
+    margin-top: 20px;
+    text-align: center;
+}
+#port
+{
+    margin-bottom: 10px;
+}
+#text4
+{
+    margin-bottom: 10px;
+}
+.option
+{
+    text-decoration: none;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.option a{
+    margin: 10px;
+    text-decoration: none;
+    font-size: large;
+    padding: 10px;
+    color: black;
+    justify-content: center;
+    background-color: aqua;
+}
+
+
+
+.port-image{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.port-image div{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+
+}
+.camera div:hover{
+    scale: 1.4;
+}
+.camera div
+{
+    height: 70px;
+    width: 70px;
+    border-radius: 20%;
+}
+
+
+
+
+.about
+{
+    background-color: rgb(132, 236, 236);
+    height: 600px;
+    text-align: center;
+}
+#a1
+{
+    margin-bottom: 10px;
+}
+#a2
+{
+    margin-bottom: 20px;
+}
+.aboutt
+{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.falsi
+{
+    height: 480px;
+    width: 300px;
+    background-color: antiquewhite;
+    /* margin-left: 100px; */
+    margin-right: 50px;
+}
+.shivu
+{
+    height: 480px;
+    width: 300px;
+    background-color: antiquewhite;
+}
+.about-image 
+{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-image img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.about-name
+{
+    font-size: 30px;
+    font-weight: 10rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+.footer
+{
+    text-align: center;
+    height: 330px;
+    background-color: lightgray;
+}
+.infoo
+{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    /* padding: 50px; */
+}
+#c1
+{
+    text-align: center;
+    margin-bottom: 10px;
+}
+#c2
+{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.info
+{
+    margin-left: 100px;
+}
+.detail
+{
+    text-align: left;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.submit
+{
+    margin-left: 320px;
+    height: 30px;
+    width: 100px;
+    background-color: aqua;
+}
+#f1
+{
+    height: 30px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+#f2
+{
+    height: 30px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+#f3
+{
+    height: 100px;
+    width: 416px;
+    margin-bottom: 10px;
+}
+.copyright
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+.line
+{
+    width: 100%;
+    height: 70px;
+    color: white;
+    background-color:rgb(34, 34, 37);
+    align-items: center;
+    justify-content: left;
+    display: flex;
+}
+#line1
+{
+    margin-left: 10px;
+}
+.up
+{
+    margin-left: 900px;
+}
